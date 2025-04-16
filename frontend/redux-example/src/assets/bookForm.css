@@ -1,0 +1,61 @@
+.book-form {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 24px;
+    max-width: 500px;
+    margin: 1.5rem auto;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  }
+  
+  .book-form h2 {
+    margin-bottom: 1rem;
+    color: #333;
+    text-align: center;
+    font-weight: 500;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16px;
+  }
+  
+  .form-group label {
+    margin-bottom: 6px;
+    font-weight: 500;
+    color: #444;
+  }
+  
+  .form-group input,
+  .form-group select {
+    padding: 10px 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .form-group input:focus,
+  .form-group select:focus {
+    border-color: #4b6cb7;
+    box-shadow: 0 0 0 3px rgba(75, 108, 183, 0.15);
+    outline: none;
+  }
+  
+  .submit-btn {
+    background-color: #4b6cb7;
+    color: white;
+    padding: 12px;
+    width: 100%;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.25s ease;
+  }
+  
+  .submit-btn:hover {
+    background-color: #3f59a0;
+  }
+  
